@@ -1,0 +1,40 @@
+version: "3"
+services:
+  sqlserver:
+    container_name: sqlserver
+    restart: always
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=todO!2022
+      - MSSQL_PID=Express
+    volumes:
+      - .sqlvolume:/var/opt/mssql/data
+    ports:
+      - "1433:1433"
+  api-todo:
+    image: api-todo:latest
+    build: ./demo.back
+    restart: always
+    container_name: api-todo
+    depends_on:
+      - sqlserver
+    environment:
+      - DB_NAME=todoList
+      - DB_SERVER=sqlserver
+      - DB_USER=sa
+      - DB_PWD=todO!2022
+      - CONNECTION_STRING="Initial Catalog=todoList;Data Source=sqlserver;Persist Security Info=True;User ID=sa;Password=todO!2022"
+    ports:
+        - "80:80"
+  front-todo:
+    image: front-todo:latest
+    build: ./demo.front
+    restart: always
+    container_name: front-todo
+    depends_on:
+      - api-todo
+    environment:
+      - REACT_APP_BASE_API_URL=http://127.0.0.1/api
+    ports:
+        - "3000:3000"

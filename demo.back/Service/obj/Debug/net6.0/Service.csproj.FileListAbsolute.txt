@@ -1,0 +1,17 @@
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Service.deps.json
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Service.dll
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Service.pdb
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Data.dll
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Repository.dll
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Data.pdb
+D:\source\Demo\demo.back\Service\bin\Debug\net6.0\Repository.pdb
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.dll
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\refint\Service.dll
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\Service.pdb
+D:\source\Demo\demo.back\Service\obj\Debug\net6.0\ref\Service.dll

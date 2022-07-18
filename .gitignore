@@ -1,0 +1,10 @@
+.sqlvolume
+./demo.front/node_modules
+./demo.back/Data/bin
+./demo.back/Data/obj
+./demo.back/Repository/bin
+./demo.back/Repository/obj
+./demo.back/Service/bin
+./demo.back/Service/obj
+./demo.back/WebAPI/bin
+./demo.back/WebAPI/obj
